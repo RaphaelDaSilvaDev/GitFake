@@ -1,0 +1,14 @@
+#header{
+    height: 80px;
+    padding: 0 32px;
+    background: #4968d3;
+    display: flex;
+    align-items: center;
+
+}
+
+#header h1{
+padding: 0 16px;
+color: #ffecee;
+    font-size: 32px;
+}

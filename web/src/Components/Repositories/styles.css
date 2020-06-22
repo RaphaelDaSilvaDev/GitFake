@@ -1,0 +1,142 @@
+#addRepository{
+    display: flex;
+    margin-top: 16px;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+#addRepository form{
+    background-color: #ccc;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+#addRepository input{
+    display: block;
+    width: 500px;
+    height: 35px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 2px 4px;
+    font-size: 14px;
+}
+
+#addRepository button{
+    width: 180px;
+    height: 35px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4968d3;
+    color: #fff;
+    cursor: pointer;
+}
+
+#addRepository button:hover{
+    background-color: #213b99;
+    color: #fff;
+}
+
+#list{
+    display: flex;
+    margin-top: 24px;
+    margin-left: 15%;
+    width: 70%;
+    height: 50%;
+    justify-content: center;
+    overflow-y: scroll;
+}
+
+#list ul{
+    width: 100%;
+    padding: 16px;
+    border-radius: 8px;
+    list-style: none;
+}
+
+#list li{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #ccc;
+    border-radius: 8px;
+    box-shadow: 0 1px 0 0 rgb(182, 182, 182);
+    margin-top: 16px;
+}
+
+#list h1{
+    width: 350px;
+    font-size: 22px;
+    text-align: left;
+    padding-top: 8px;
+    margin-left: 8px;
+}
+
+#list h2{
+    text-align: left;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 12px;
+    margin-left: 8px;
+}
+
+#list h3{
+    align-self: center;
+    text-align: center;
+}
+
+#list a{
+    align-self: center;
+    width: 400px;
+}
+
+#list p{
+    text-align: center;
+}
+
+#buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+#list button[name="like"]{
+
+    margin-right: 8px;
+    margin-bottom: 8px;
+    width: 70px;
+    height: 40px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4968d3;
+    color: #fff;
+}
+
+#list button[name="like"]:hover{
+    background-color: #213b99;
+    color: #fff;
+    cursor: pointer;
+}
+
+#list button[name="delete"]{
+    float: right;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    width: 80px;
+    height: 40px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ff0000;
+    color: #fff;
+}
+
+#list button[name="delete"]:hover{
+    background-color: #b10101;
+    color: #fff;
+    cursor: pointer;
+}
